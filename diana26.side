@@ -1,0 +1,112 @@
+{
+  "id": "d9d1b3f7-308e-4dcb-b176-b7016ca47dd4",
+  "version": "2.0",
+  "name": "diana26",
+  "url": "https://devexpress.github.io",
+  "tests": [{
+    "id": "524e4ebc-2973-4726-90b8-a6c6fccb8972",
+    "name": "example",
+    "commands": [{
+      "id": "fb34ee1b-7088-4377-b6de-dd2383158c00",
+      "comment": "",
+      "command": "open",
+      "target": "/testcafe/example/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "972ba56b-05e2-4ec8-9724-0e0373ed5afe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c754caa7-494a-4755-8549-8b01cd6f5b22",
+      "comment": "",
+      "command": "click",
+      "target": "id=developer-name",
+      "targets": [
+        ["id=developer-name", "id"],
+        ["name=name", "name"],
+        ["css=#developer-name", "css:finder"],
+        ["xpath=//input[@id='developer-name']", "xpath:attributes"],
+        ["xpath=//form[@id='main-form']/div/div/div/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ac0e10f-7608-464f-a9fa-27f5bda2f793",
+      "comment": "",
+      "command": "type",
+      "target": "id=developer-name",
+      "targets": [
+        ["id=developer-name", "id"],
+        ["name=name", "name"],
+        ["css=#developer-name", "css:finder"],
+        ["xpath=//input[@id='developer-name']", "xpath:attributes"],
+        ["xpath=//form[@id='main-form']/div/div/div/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Diana"
+    }, {
+      "id": "fe71bcf6-6876-4cba-9e70-f8914ff5c0c2",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"main-form\"]/div/header/h1",
+      "targets": [],
+      "value": "Example"
+    }, {
+      "id": "728c2ec2-5de3-46e2-af0f-ea54935bc7b8",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"main-form\"]/div/div[1]/div[2]/fieldset[1]/legend",
+      "targets": [],
+      "value": "What is your primary Operating System:"
+    }, {
+      "id": "a508f25d-2791-40ca-aa17-b35d5ac767c9",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"main-form\"]/div/div[1]/div[2]/fieldset[2]/legend",
+      "targets": [],
+      "value": "Which TestCafe interface do you use:"
+    }, {
+      "id": "4d65e9d3-e5f1-4de0-ad45-4863e2c7896e",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"main-form\"]/div/div[1]/div[2]/fieldset[1]/p[3]/label",
+      "targets": [],
+      "value": "Linux"
+    }, {
+      "id": "1505d03d-1e1a-4310-b7f0-30bafd3c5a4f",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"main-form\"]/div/div[1]/div[2]/fieldset[1]/p[1]/label",
+      "targets": [],
+      "value": "Windows"
+    }, {
+      "id": "bccab95e-c5bd-475a-bb8e-63f020778f9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=remote-testing",
+      "targets": [
+        ["id=remote-testing", "id"],
+        ["name=remote", "name"],
+        ["css=#remote-testing", "css:finder"],
+        ["xpath=//input[@id='remote-testing']", "xpath:attributes"],
+        ["xpath=//form[@id='main-form']/div/div/div/fieldset[2]/p/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "896a15f1-952d-4eee-8563-7b6033f71e9d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["524e4ebc-2973-4726-90b8-a6c6fccb8972"]
+  }],
+  "urls": ["https://devexpress.github.io/"],
+  "plugins": []
+}

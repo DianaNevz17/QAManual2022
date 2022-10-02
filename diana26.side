@@ -97,6 +97,13 @@
         ["xpath=//label/input", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "009ce3d9-deac-4f3b-aa75-e0a3bd8529e7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{

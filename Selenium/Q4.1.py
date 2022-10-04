@@ -22,7 +22,7 @@ password = "welcome2qauto"
 driver.get("https://"+user+":"+password+"@"+"qauto2.forstudy.space/")
 # driver.get("https://qauto2.forstudy.space/")
 
-element = driver.find_element(By.XPATH, "//*[contains(text(), 'Guest log in')]")
+element = driver.find_element(By.XPATH, "//button[contains(text(), 'Guest log in')]")
 
 
 driver.close()
